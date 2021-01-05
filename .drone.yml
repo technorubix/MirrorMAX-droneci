@@ -38,7 +38,7 @@ steps:
   - cd loop
   - echo "1" >> loop.txt
   - git add loop.txt
-  - git commit -m "Workflow : Loop"
+  - git commit -m "Workflow Loop"
   - expect -c "
   - spawn git push -f 
   - expect \"Username\"
